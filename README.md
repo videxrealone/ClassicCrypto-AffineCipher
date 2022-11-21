@@ -43,7 +43,7 @@ a^-1 : modular multiplicative inverse of a modulo m. i.e., it satisfies the equa
 If we find the number x such that the equation is true, then **x** is the **inverse of a**, and we call it **a^-1**. The easiest way to solve this equation is to search each of the numbers 1 to 25, and see which one satisfies the equation : 
 
 ```
-**a * a^-1 = 1**
+a * a^-1 = 1
 ```
 
 If you now multiply x and a and reduce the result (mod 26), you will get the answer 1. Remember, this is just the definition of an inverse i.e. if **a*x = 1** (mod 26), then x is an inverse of a.
