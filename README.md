@@ -23,7 +23,7 @@ The encryption function for a single letter is  :
 
 ```
  C ( x ) = ( a x + b ) mod m 
-modulus m: size of the alphabet (m always equals to 26)
+modulus m: size of the alphabet (m usually is set to 26)
 a and b: key of the cipher.
 a must be chosen such that a and m are coprime.
 ```
